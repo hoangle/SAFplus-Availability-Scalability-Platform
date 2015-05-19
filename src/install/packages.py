@@ -504,7 +504,11 @@ class Ubuntu(OS):
                  'libltdl3-dev',
                  'e2fslibs-dev',
                  'libsnmp-dev',
-                 'zlib1g-dev']
+                 'zlib1g-dev',
+                 'libreadline6',
+                 'libreadline6-dev',
+                 'libxml2-dev'
+        ]
         
         
         for name in deps:
